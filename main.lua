@@ -1,11 +1,14 @@
 
 
-function init()
+local godmodeHealth = 1000000
 
+function init()
+	print('Simple Teardown GodMode is active.')
 end
 	
 	
 function tick()
-	local hp = GetPlayerHealth()
-		SetPlayerHealth(10000)
+	if GetPlayerHealth() < godmodeHealth then
+		SetPlayerHealth(godmodeHealth)
+	end
 end

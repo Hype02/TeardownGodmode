@@ -1,0 +1,3 @@
+name = GodMode
+author = Sebastian Klawikowski
+description = Whenever you take damage your health will restore instantly.

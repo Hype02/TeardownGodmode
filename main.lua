@@ -1,6 +1,6 @@
 
 function tick()
-	if GetPlayerHealth() != 1 then
-		SetPlayerHealth(1)
+	if GetPlayerHealth() != 10 then
+		SetPlayerHealth(10)
 	end
 end

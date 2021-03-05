@@ -1,3 +1,3 @@
 name = Teleport To Checkpoint
 author = Hype
-description = Press "E" to save position and again "E" to teleport to it.
+description = Never die again.

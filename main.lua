@@ -2,23 +2,16 @@ savedPlayerTransform = nil
 visible = 0
 cpMessage = "CHECKPOINT SAVED"
 
-<<<<<<< HEAD
  
 function init()
 	savedPlayerTransform = GetPlayerTransform()
 	cpMessage = "CHECKPOINT TELEPORT MOD\nPress X to save new position\nPress Z to teleport to saved position"
 	visible = 1
 	SetValue("visible", 0, "linear", 3)
-=======
-
-function init()
-
->>>>>>> parent of 65d4e27 (Previous release was just a test)
 end
 
 
 function tick()
-<<<<<<< HEAD
 	if InputPressed("z") then
 		savedPlayerTransform = GetPlayerTransform()
 		cpMessage = "CHECKPOINT SAVED\nPress Z to teleport"
@@ -61,8 +54,4 @@ end
 
 function draw()
 	drawCheckpointMessage()
-=======
-	local hp = GetPlayerHealth()
-		SetPlayerHealth(10000)
->>>>>>> parent of 65d4e27 (Previous release was just a test)
 end
